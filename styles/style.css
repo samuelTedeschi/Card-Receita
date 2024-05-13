@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  width: 90%;
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 30px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  font-weight: 300;
+  margin: 20px 0px 0px;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  color: hsl(30, 10%, 34%);
+  margin-top: 0;
+}
+
+.container-preparation{
+  border-radius: 8px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.container-preparation h3{
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+
+.container-preparation ul{
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+}
+
+.container-preparation ul li{
+  padding: 5px;
+}
+
+h2{
+  color:  hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 300;
+}
+
+ul li, ol li {
+  font-family:  "Outfit", sans-serif;
+  font-weight: 400;
+  padding-bottom: 8px;
+  color:  hsl(30, 10%, 34%);
+}
+
+
+.linha{
+  border: 1px solid hsl(30, 18%, 87%);
+}
+
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr td{
+  border-bottom: solid 1px hsl(30, 18%, 87%);
+  padding: 10px 30px;
+  margin: 0 30px;
+}
+
+.td-1, .td-2{
+  font-family:  "Outfit", sans-serif;
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 375px){
+  .container {
+    padding: 20px; /* Ajustado o preenchimento geral */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Reduzido o tamanho da fonte */
+  }
+
+  p {
+    font-size: 12px; /* Reduzido o tamanho da fonte */
+  }
+}
